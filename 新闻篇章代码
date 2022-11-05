@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 600px;
+            height: 500px;
+            /* background-color:pink; */
+            margin: 0 auto;
+        }
+        /* 用类选择器替换下面的代码 */
+        /* h1{
+            text-align: center;
+        } */
+        .center{
+            text-align: center;
+
+        }
+
+        .color1 {
+            color: #808080;
+
+        }
+
+        .color2 {
+            color: #87ceeb;
+            font-weight: 700px;
+        }
+        /* 去除超链接的下划线 */
+        a {
+            text-decoration: none;
+        }
+        /* 首行段落内容缩进 */
+        .suojin {
+            text-indent: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="center">《自然》</h1>
+        <p class="center">
+            <span class="color1">2022年11月5日</span>
+            <span class="color2">新浪微博</span>
+            <a href="#">收藏本文</a>
+        </p>
+        <hr>
+        <p class="suojin">内容太长</p>
+        <p class="suojin">我就不复制了</p>
+        <p class="suojin">这不代表我是偷懒</p>
+    </div>
+</body>
+</html>
