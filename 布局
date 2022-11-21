@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=                                                          , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            margin: 0 auto;
+
+            width: 1226px;
+            height: 614px;
+            /* background-color: pink; */
+        }
+
+        .left {
+            float: left;
+
+            width: 234px;
+            height: 614px;
+            background-color: #800080;
+        }
+
+        .right {
+            float: right;
+
+            width: 978px;
+            height: 614px;
+            /* background-color: green; */
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .right li {
+            float: left;
+
+            margin-right: 14px;
+            margin-bottom: 14px;
+
+            width: 234px;
+            height: 300px;
+            background-color: #87ceeb;
+
+        }
+
+        .right li:nth-child(4n) {
+            margin-right: 0;
+        }
+
+        .nav {
+            margin: 50px auto;
+            width: 640px;
+            height: 50px;
+            background-color: #ffc0cb;
+        }
+
+        .nav li {
+                float: left;
+        }
+
+        .nav li a {
+
+            display: block;
+
+            width: 80px;
+            height: 50px;
+            background-color: white;
+
+            text-align: center;
+            line-height: 50px;
+
+            color: black;
+            text-decoration: none;
+        }
+
+        .nav li a:hover {
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航 -->
+    <div class="nav">
+        <ul>
+            <li><a href="#">秒杀</a></li>
+            <li><a href="#">京东超市</a></li>
+            <li><a href="#">优惠卷</a></li>
+            <li><a href="#">京东家电</a></li>
+            <li><a href="#">京东生鲜</a></li>
+            <li><a href="#">进口好物</a></li>
+            <li><a href="#">品套好购</a></li>
+            <li><a href="#">拍卖</a></li>
+        </ul>
+    </div>
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="left"></div>
+        <div class="right">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
